@@ -1,0 +1,94 @@
+"[MBNQAOS]: Hunter Seeker script starting"
+Warning Message: No entry 'bin\config.bin/CfgWeapons.Mk_48_DZ'.
+Warning Message: No entry '.scope'.
+Warning Message: '/' is not a value
+Warning Message: Error: creating weapon Mk_48_DZ with scope=private
+Warning Message: No entry '.displayName'.
+Warning Message: '/' is not a value
+Warning Message: No entry '.nameSound'.
+Warning Message: '/' is not a value
+Warning Message: No entry '.type'.
+Warning Message: '/' is not a value
+Warning Message: No entry '.picture'.
+Warning Message: '/' is not a value
+Warning Message: No entry '.Library'.
+Warning Message: No entry '.libTextDesc'.
+Warning Message: '/' is not a value
+Warning Message: No entry '.model'.
+Warning Message: '/' is not a value
+Warning Message: No entry '.simulation'.
+Warning Message: '/' is not a value
+Warning Message: No entry '.fireLightDuration'.
+Warning Message: '/' is not a value
+Warning Message: No entry '.fireLightIntensity'.
+Warning Message: '/' is not a value
+Warning Message: No entry '.weaponLockDelay'.
+Warning Message: '/' is not a value
+Warning Message: No entry '.weaponLockSystem'.
+Warning Message: '/' is not a value
+Warning Message: No entry '.cmImmunity'.
+Warning Message: '/' is not a value
+Warning Message: No entry '.lockingTargetSound'.
+Warning Message: Size: '/' not an array
+Warning Message: No entry '.lockedTargetSound'.
+Warning Message: Size: '/' not an array
+Warning Message: No entry '.muzzles'.
+Warning Message: Size: '/' not an array
+No owner
+No owner
+Error in expression <"_i" from 0 to 4 do {
+_unit addMagazine _mag;
+};
+
+_unit addEventHandler ["Killed>
+  Error position: <_mag;
+};
+
+_unit addEventHandler ["Killed>
+  Error Undefined variable in expression: _mag
+File z\addons\dayz_server\mbnqhs\fnc\unitSetup.sqf, line 100
+Error in expression <"_i" from 0 to 4 do {
+_unit addMagazine _mag;
+};
+
+_unit addEventHandler ["Killed>
+  Error position: <_mag;
+};
+
+_unit addEventHandler ["Killed>
+  Error Undefined variable in expression: _mag
+File z\addons\dayz_server\mbnqhs\fnc\unitSetup.sqf, line 100
+Error in expression <"_i" from 0 to 4 do {
+_unit addMagazine _mag;
+};
+
+_unit addEventHandler ["Killed>
+  Error position: <_mag;
+};
+
+_unit addEventHandler ["Killed>
+  Error Undefined variable in expression: _mag
+File z\addons\dayz_server\mbnqhs\fnc\unitSetup.sqf, line 100
+Error in expression <"_i" from 0 to 4 do {
+_unit addMagazine _mag;
+};
+
+_unit addEventHandler ["Killed>
+  Error position: <_mag;
+};
+
+_unit addEventHandler ["Killed>
+  Error Undefined variable in expression: _mag
+File z\addons\dayz_server\mbnqhs\fnc\unitSetup.sqf, line 100
+Error in expression <"_i" from 0 to 4 do {
+_unit addMagazine _mag;
+};
+
+_unit addEventHandler ["Killed>
+  Error position: <_mag;
+};
+
+_unit addEventHandler ["Killed>
+  Error Undefined variable in expression: _mag
+File z\addons\dayz_server\mbnqhs\fnc\unitSetup.sqf, line 100
+"[MBNQAI]: Running for HS O 1-1-E:1"
