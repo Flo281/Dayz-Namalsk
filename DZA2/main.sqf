@@ -25,8 +25,8 @@ _debug 		= false;
 
 // locations where bots are being spawned at server restart
 _spawnPos	=  	[
-			 [170[4987.32,6620.5,23.48]],
-			 [90[4987.56,6611.04,26.011]]
+			 [170,[4987.32,6620.5,23.48]],
+			 [90,[4987.56,6611.04,26.011]],
 			 [190,[4978.64,6614.73,23.48]],
 			 [352,[4985.21,6605.05,23.48]],
 			 [141,[4976.75,6609.21,23.48]],
@@ -37,7 +37,7 @@ _spawnPos	=  	[
 			 [125,[4974.8,6649.56,17.32]],
 			 [48,[4982.49,6623.11,17.221]],
 			 [23,[4981.2,6611.4,16.385]]
-			] 
+			];
 
 // ======================================= Local CFG =======================================
 // ====================================== Global CFG  ======================================
@@ -55,7 +55,7 @@ HS_group = createGroup east;
 // ====================================== Global CFG  ======================================
 
 
-HS_group setFormation "VEE";
+HS_group setFormation "VEE"; //Here is im fink sameting wrong
 for "_i" from 0 to 1 do {
 	// characters being used by bots
 	_unit = ["Survivor2_DZ","Survivor2_DZ"] call _fnc_selectRandom;
