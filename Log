@@ -92,3 +92,41 @@ _unit addEventHandler ["Killed>
   Error Undefined variable in expression: _mag
 File z\addons\dayz_server\mbnqhs\fnc\unitSetup.sqf, line 100
 "[MBNQAI]: Running for HS O 1-1-E:1"
+
+
+
+
+
+
+
+
+
+When im kill AI
+
+Error in expression <l _fnc_selectRandom;
+
+
+_tool = [
+"APSI"
+"ItemWatch",
+"ItemKnife",
+"ItemHatchet",>
+  Error position: <"ItemWatch",
+"ItemKnife",
+"ItemHatchet",>
+  Error Missing ]
+File z\addons\dayz_server\mbnqhs\fnc\unitkilled.sqf, line 92
+Error in expression <l _fnc_selectRandom;
+
+
+_tool = [
+"APSI"
+"ItemWatch",
+"ItemKnife",
+"ItemHatchet",>
+  Error position: <"ItemWatch",
+"ItemKnife",
+"ItemHatchet",>
+  Error Missing ]
+File z\addons\dayz_server\mbnqhs\fnc\unitkilled.sqf, line 92
+"[MBNQHS]: Group member O 1-1-E:1 was killed at 049061 by Zbig"
