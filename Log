@@ -101,7 +101,7 @@ File z\addons\dayz_server\mbnqhs\fnc\unitSetup.sqf, line 100
 
 
 
-When im kill AI
+////////////////////  When im kill AI  /////////////////////////
 
 Error in expression <l _fnc_selectRandom;
 
