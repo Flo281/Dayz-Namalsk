@@ -128,5 +128,5 @@ _tool = [
 "ItemKnife",
 "ItemHatchet",>
   Error Missing ]
-File z\addons\dayz_server\mbnqhs\fnc\unitkilled.sqf, line 92
-"[MBNQHS]: Group member O 1-1-E:1 was killed at 049061 by Zbig"
+File z\addons\dayz_server\mbnqhs\fnc\unitkilled.sqf, line 92(
+"[MBNQHS]: Group member O 1-1-E:1 was killed at 049061 by Flo"
