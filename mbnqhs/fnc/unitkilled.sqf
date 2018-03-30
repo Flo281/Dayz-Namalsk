@@ -88,7 +88,7 @@ _sidearm = [
 
 
 _tool = [
-		"APSI"
+		"APSI",
 		"ItemWatch",
 		"ItemKnife",
 		"ItemHatchet",
