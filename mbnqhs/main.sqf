@@ -44,6 +44,7 @@ HS_group = createGroup east;
 
 _unit = "Survivor2_DZ";
 
+//usuniente -pos dodana poprostu kordynacja.
 _unit createUnit [[4981.2,6611.4,16.385], HS_group, "ffx0 = [this] execVM HS_unitSetup;", 0.9, "corporal"];
 
 
