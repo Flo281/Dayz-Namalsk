@@ -100,14 +100,13 @@ File z\addons\dayz_server\mbnqhs\fnc\unitSetup.sqf, line 100
 
 
 
-
 ////////////////////  When im kill AI  /////////////////////////
 
 Error in expression <l _fnc_selectRandom;
 
 
 _tool = [
-"APSI"
+"APSI"  <----- ,
 "ItemWatch",
 "ItemKnife",
 "ItemHatchet",>
@@ -120,7 +119,7 @@ Error in expression <l _fnc_selectRandom;
 
 
 _tool = [
-"APSI"
+"APSI"   <----- ,
 "ItemWatch",
 "ItemKnife",
 "ItemHatchet",>
@@ -130,3 +129,7 @@ _tool = [
   Error Missing ]
 File z\addons\dayz_server\mbnqhs\fnc\unitkilled.sqf, line 92(
 "[MBNQHS]: Group member O 1-1-E:1 was killed at 049061 by Flo"
+
+
+///////////////////////// FIX //////////////
+ 
