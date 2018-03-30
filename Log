@@ -106,7 +106,7 @@ Error in expression <l _fnc_selectRandom;
 
 
 _tool = [
-"APSI"  <----- ,
+"APSI"  //<----- ,
 "ItemWatch",
 "ItemKnife",
 "ItemHatchet",>
@@ -119,7 +119,7 @@ Error in expression <l _fnc_selectRandom;
 
 
 _tool = [
-"APSI"   <----- ,
+"APSI"   //<----- ,
 "ItemWatch",
 "ItemKnife",
 "ItemHatchet",>
