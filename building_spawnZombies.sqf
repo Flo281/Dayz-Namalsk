@@ -23,20 +23,21 @@ if (r_player_divideinvehicle > 0) then {
 _maxControlledZombies = round(dayz_maxLocalZombies);
 _enabled = false;
 
-//Add bloodsuckers
-if (_type == "Land_bspawn") then {
-  private["_originalPos", "_group", "_unit"];
-  _originalPos = getPos _obj;
-  _group = createGroup east; 
-  _unit = _group createUnit ["ns_bloodsucker", [(_originalPos select 0) + (random 60), (_originalPos select 1) - (random 60), 0], [], 0, "FORM"];
-  diag_log format["Spawn bloodsucker at pos %1", _originalPos];
-  _unit spawn {
-  while { alive _this } 
-  do { sleep 0.1; };
-  // remove gear of dead bloodsucker and add your gear.here + remowe all weapon and 
-  if (0.18562 > random 1) then {
-    _unit addWeapon "mut_heart";
-  };
+//Add bloodsuckers 
+if (_type == "Land_bspawn") then { 
+private["_originalPos", "_group", "_unit"]; 
+_originalPos = getPos _obj; 
+_group = createGroup east; 
+_unit = _group createUnit ["ns_bloodsucker", [(_originalPos select 0) + (random 60), (_originalPos select 1) - (random 60), 0], [], 0, "FORM"]; 
+diag_log format["Spawn bloodsucker at pos %1", _originalPos]; 
+_unit spawn { 
+while { alive _this } 
+do { sleep 0.1; }; 
+removeAllWeapons _this; 
+if (0.18562 > random 1) then { 
+_this addWeapon "mut_heart"; 
+}; 
+}; 
 };
 
 if (_canLoot ) then {
