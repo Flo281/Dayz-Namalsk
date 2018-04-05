@@ -33,8 +33,7 @@ if (_type == "Land_bspawn") then {
   _unit spawn {
   while { alive _this } 
   do { sleep 0.1; };
-  // remove gear of dead bloodsucker and add your gear.
-  };
+  // remove gear of dead bloodsucker and add your gear.here + remowe all weapon and 
   if (0.18562 > random 1) then {
     _unit addWeapon "mut_heart";
   };
